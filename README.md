@@ -28,13 +28,7 @@ sudo curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > /
 ```
 (project folder)/
 ├── tests/
-│   ├── 1/
-│   │   ├── in
-│   │   └── out
-│   ├── 2a/
-│   │   ├── in
-│   │   └── out
-│   └── (...)/
+│   └── (test name or number)/
 │       ├── in
 │       └── out
 └── (project name).c
