@@ -6,7 +6,22 @@ version 1.0.0
 
 ## Installation
 
-Download `mathis` to your `$HOME/bin` directory (Create the directory if it does not exist)
+You have a few choices to install:
+
+1. (Recommended) Install globally for your user only:
+```
+mkdir -p $HOME/bin && curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > $HOME/bin/mathis && chmod +x $HOME/bin/mathis
+```
+
+2. Install for a single project:
+```
+curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > $HOME/bin/mathis && chmod +x mathis
+```
+
+3. (Requires sudo) Install globally for all users:
+```
+sudo curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > /usr/local/bin/mathis && chmod +x /usr/local/bin/mathis
+```
 
 ## Usage
 
