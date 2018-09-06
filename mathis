@@ -1,0 +1,20 @@
+#!/bin/bash
+# Mathis
+# An incredibly simple C input/output tester with a build tool
+# version 1.0.0
+# Tadas Varanauskas (hhttps://github.com/varanauskas)
+
+TEST_DIR=tests
+MATHIS_DIR=.mathis
+
+rm -r $MATHIS_DIR
+mkdir -p $MATHIS_DIR/tests
+
+gcc -std=c99 -pedantic -Wall -o $MATHIS_DIR/a.out *.c
+
+for test in $TEST_DIR/*
+do
+    echo $test
+    ./$MATHIS_DIR/a.out < $test/in > $MATHIS_DIR/$test.out
+    diff $test/out $MATHIS_DIR/$test.out | tee $MATHIS_DIR/$test.log
+done
