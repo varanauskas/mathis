@@ -8,12 +8,12 @@ version 1.0.0
 
 You have a few couple of choices on how to install:
 
-2. Install for a single project:
+1. Install for a single project:
 ```
 curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > $HOME/bin/mathis && chmod +x mathis
 ```
 
-3. (Requires sudo) Install globally for all users:
+2. (Requires sudo) Install globally for all users:
 ```
 sudo curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > /usr/local/bin/mathis && chmod +x /usr/local/bin/mathis
 ```
