@@ -6,12 +6,7 @@ version 1.0.0
 
 ## Installation
 
-You have a few choices to install:
-
-1. (Recommended) Install globally for your user only:
-```
-mkdir -p $HOME/bin && curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > $HOME/bin/mathis && chmod +x $HOME/bin/mathis
-```
+You have a few couple of choices on how to install:
 
 2. Install for a single project:
 ```
