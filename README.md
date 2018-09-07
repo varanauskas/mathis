@@ -10,7 +10,7 @@ You have a few couple of choices on how to install:
 
 1. Install for a single project:
 ```
-curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > $HOME/bin/mathis && chmod +x mathis
+curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > mathis && chmod +x mathis
 ```
 
 2. (Requires sudo) Install globally for all users:
@@ -32,7 +32,7 @@ sudo curl https://raw.githubusercontent.com/varanauskas/mathis/master/mathis > /
 1. Open the folder of your `*.c` file in terminal
 2. Create a `tests` folder
 3. Create a named (or numbered) test folder for each test with `in` and `out` files representing the expected input and output of your program.
-4. Run `mathis` and see the test resuts
+4. Run `./mathis` if it's installed for a single project only or `mathis` if it's installed globally and see the test resuts
 
 ## Example
 
